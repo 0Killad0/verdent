@@ -31,9 +31,6 @@ const app = express();
    CORS CONFIGURATION
 ====================================================== */
 const allowedOrigins = [
-  'http://localhost:3000',
-  'http://127.0.0.1:3000',
-  'http://localhost:5173',
   'https://erdent.netlify.app',
   ...(process.env.ALLOWED_ORIGINS ? process.env.ALLOWED_ORIGINS.split(',') : [])
 ];
