@@ -12,7 +12,7 @@ const OrderSuccess = () => {
 
   // ✅ Use environment variable for base URL (fallback to localhost)
   const API_BASE_URL =
-    import.meta.env.VITE_API_BASE_URL || "https://verdent-production.up.railway.app";
+    import.meta.env.VITE_API_BASE_URL || "https://erdent.onrender.com";
 
   useEffect(() => {
     const fetchOrder = async () => {
