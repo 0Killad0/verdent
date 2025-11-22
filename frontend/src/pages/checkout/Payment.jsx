@@ -6,7 +6,7 @@ import axios from 'axios';
 import toast from 'react-hot-toast';
 import { useAuth } from '../../context/AuthContext';
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL || "https://verdent-production.up.railway.app";
+const API_BASE = import.meta.env.VITE_API_BASE_URL || "https://erdent.onrender.com";
 
 /* ======================================================
    UPI Deep Link Payment
