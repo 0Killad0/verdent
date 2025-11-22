@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'https://verdent-production.up.railway.app',
+        target: 'https://erdent.onrender.com',
         changeOrigin: true,
       }
     }
