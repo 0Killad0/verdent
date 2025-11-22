@@ -12,7 +12,7 @@ const PlaceOrder = () => {
   const location = useLocation();
   const [loading, setLoading] = useState(false);
 
-  const API_BASE_URL = "http://localhost:5000";
+  const API_BASE_URL = "https://verdent-production.up.railway.app";
 
   const { selectedAddress, shippingMethod, shippingCost, paymentMethod } = location.state || {};
 
